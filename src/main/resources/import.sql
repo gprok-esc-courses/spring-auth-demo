@@ -1,6 +1,6 @@
 INSERT INTO roles (name) VALUES ('ADMIN')
-INSERT INTO roles (name) VALUES ('EDITOR')
-INSERT INTO roles (name) VALUES ('AUTHOR')
+INSERT INTO roles (name) VALUES ('ROLE_EDITOR')
+INSERT INTO roles (name) VALUES ('ROLE_AUTHOR')
 INSERT INTO roles (name) VALUES ('USER')
 
 INSERT INTO users (username, password, enabled) VALUES ('admin', '1111', 1)
